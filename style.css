@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+p{
+  font-size: 12px;
+}
+body {
+  background: #e5e7eb;
+  padding: 10px;
+}
+.h-thin{
+ color: #111827;
+ font-weight: 300;
+}
+.h-thick{
+ color: black;
+ font-weight: 700;
+}
+.p-thin{
+ color: #111827;
+ font-weight: 300;
+}
+.p-thick{
+ color: #111827;
+ font-weight: 400;
+}
+.p-black{
+ color: black;
+ font-weight: 700;
+ color: #111827;
+}
+.wpr > div {
+  background: white;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  min-height: 840px;
+}
+.top{
+  padding: 10px;
+  border-bottom: 1px solid #111827;
+}
+.top>p{
+  text-align: center;
+  padding: 2px;
+  color: #111827;
+  font-size: 12px;
+}
+.top > p:nth-child(1) {
+  text-align: right;
+  font-weight: 300;
+}
+.top > h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #111827;
+}
+.top > h1 > span {
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+  color: #111827;
+  font-weight: 400;
+}
+.main{
+  display: flex;
+  padding: 10px 5%;
+  gap: 10px;
+}
+.left{
+  width: calc(100% / 3);
+}
+.right{
+  width: calc(200% / 3);
+}
+.space{
+ height: 7px;
+}
+.small{
+  font-size: 12px;
+}
+@media(max-width:350px){
+ .main{
+   flex-direction: column;
+ }
+ .left,.right{
+   width: 100%;
+ }
+}
